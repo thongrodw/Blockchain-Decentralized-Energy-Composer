@@ -26,8 +26,12 @@
     "@angular/router": "^4.0.0",
     "bootstrap": "^3.3.7",
     "composer-client": "^0.20.6",
+<<<<<<< HEAD
     "composer-rest-server": "^0.20.0-0",
     "composer-runtime": "^0.20.6",
+=======
+    "composer-rest-server": "^0.20.6",
+>>>>>>> 3df2ab3bc6ce2753be1b6c65f69c2fc5ce360c95
     "concurrently": "^3.1.0",
     "config": "^1.21.0",
     "core-js": "^2.4.1",
