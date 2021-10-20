@@ -384,5 +384,17 @@ export class ResidentComponent {
           "cashCurrency":null
       });
   }
-
+  //read file
+  //  readFile(event): {
+  //  let input = event.target;
+  //  for (var index = 0; index < input.files.length; index++) {
+  //      let reader = new FileReader();
+  //      reader.onload = () => {
+            // this 'text' is the content of the file
+  
+	    //	    var text = reader.result;
+	    //       }
+	    //       reader.readAsText(input.files[index]);
+	    //  };
+	    // }
 }

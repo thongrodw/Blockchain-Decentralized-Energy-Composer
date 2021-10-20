@@ -22,12 +22,12 @@
         <div class="panel-body">
           <form [formGroup]="myForm">
 
-            <p><strong>Rate: {{bankCoinsPerCash}}  Coins / USD </strong></p>
+            <p><strong>Rate: {{bankCoinsPerCash}}  Coins / THB </strong></p>
 
             <p>Action:         
               <select name="actions" formControlName="action">
-                <option value="getCash">Get Cash (USD) for Coins</option>
-                <option value="getCoins">Get Coins for Cash (USD)</option>
+                <option value="getCash">Get Cash (THB) for Coins</option>
+                <option value="getCoins">Get Coins for Cash (THB)</option>
               </select>
             </p>
             
@@ -43,7 +43,7 @@
               </select>
             </p>
 
-            <p>Cash value (USD):
+            <p>Cash value (THB):
               <input formControlName="value" type="number" step='any' class="form-control inlineInput">
             </p>
   
